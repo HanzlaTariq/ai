@@ -21,8 +21,7 @@ type Message = {
 // 👇 Apna local IP yahan daalo (jo "npx expo start" chalane par dikha tha)
 // Real phone pe test kar rahe ho: "http://192.168.100.137:5000"
 // Android Emulator pe test kar rahe ho: "http://10.0.2.2:5000"
-const API_URL = "http://192.168.100.137:5000";
-
+const API_URL = "https://aibackend-production-da9b.up.railway.app";
 export default function ChatScreen() {
   const [input, setInput] = useState("");
   const [loading, setLoading] = useState(false);
